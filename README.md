@@ -63,3 +63,39 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 | **Controle e segurança** | Menor     | Maior         | Médio          |
 | **Modelo de custo**   | Opex          | Capex         | Opex/Capex     |
 
+---
+
+## ✅ Benefícios da Computação em Nuvem
+
+A computação em nuvem oferece diversas vantagens estratégicas e operacionais para empresas e desenvolvedores:
+
+- **Alta Disponibilidade**: Recursos e serviços disponíveis 24/7 com redundância geográfica.
+- **Escalabilidade**: Capacidade de aumentar ou reduzir recursos conforme a demanda.
+- **Elasticidade**: Adaptação automática da infraestrutura ao uso, otimizando custos.
+- **Confiabilidade**: Backup, recuperação de desastres e tolerância a falhas.
+- **Previsibilidade**: Custos e desempenho previsíveis com base em métricas de uso.
+- **Segurança**: Criptografia, controle de acesso, firewalls e atualizações automáticas.
+- **Governança**: Políticas, auditorias e conformidade com normas e regulamentações.
+- **Gerenciabilidade**: Ferramentas integradas para monitoramento, automação e gerenciamento centralizado.
+
+---
+
+## 💻 Como Criar uma Máquina Virtual na Azure
+
+Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
+
+1. Acesse o [Portal Azure](https://portal.azure.com).
+2. No menu lateral, clique em **"Máquinas Virtuais"**.
+3. Clique em **"+ Criar"** e selecione **"Máquina Virtual"**.
+4. Preencha os campos obrigatórios:
+   - Assinatura e Grupo de Recursos
+   - Nome da VM
+   - Região (ex: Brazil South)
+   - Imagem (ex: Ubuntu 20.04 LTS ou Windows Server)
+   - Tamanho da máquina (CPU/RAM)
+   - Autenticação (senha ou chave SSH)
+5. Configure a porta de entrada (por exemplo, SSH para Linux ou RDP para Windows).
+6. Revise e clique em **"Criar"**.
+7. Aguarde a implantação e acesse a VM através do IP público fornecido.
+
+---

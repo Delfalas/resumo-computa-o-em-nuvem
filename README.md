@@ -1,4 +1,4 @@
-# resumo-computação-em-nuvem
+# Resumo Computação em Nuvem
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
 # ☁️ Conceitos de Computação em Nuvem e Modelo de Custos

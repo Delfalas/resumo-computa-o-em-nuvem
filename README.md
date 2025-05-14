@@ -193,7 +193,7 @@ Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
   - Atribuir permissões específicas com base em funções (RBAC).
 - **Vinculada a um Diretório Azure AD**.
 
-## 🗂️ Grupo de Gerenciamento (Management Group)
+## 🗂️ Grupo de Gerenciamento
 - **Definição**: Contêiner hierárquico acima das assinaturas, usado para aplicar políticas, governança e controle de acesso em escala.
 - **Função**:
   - Organizar múltiplas assinaturas.

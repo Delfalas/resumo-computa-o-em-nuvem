@@ -166,3 +166,37 @@ Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
 - Forneça o **endpoint DNS**, usuário e senha definidos na criação
 
 ---
+
+# 🏗️ Componentes de Arquitetura da Azure
+
+## 🌍 Região
+- **Definição**: Conjunto de data centers implantados em uma área geográfica específica.
+- **Função**: Hospedar recursos e serviços da Azure próximos ao usuário final para menor latência.
+- **Exemplos**: `Brazil South`, `East US`, `West Europe`.
+
+## 🌐 Pares de Região
+- **Definição**: Duas regiões da mesma área geográfica emparelhadas para fornecer **alta disponibilidade** e **recuperação de desastres**.
+- **Características**:
+  - Atualizações planejadas são feitas uma de cada vez entre pares.
+  - Replicação de dados e failover garantidos entre as regiões.
+  - Separação física (em caso de desastres naturais).
+
+## 📦 Grupo de Recursos
+- **Definição**: Contêiner lógico que armazena recursos da Azure relacionados (como VMs, bancos de dados, redes).
+- **Função**: Gerenciar recursos como uma unidade (implantação, atualização e exclusão em conjunto).
+- **Boas práticas**: Agrupar recursos com o mesmo ciclo de vida.
+
+## 🧾 Assinatura da Azure
+- **Definição**: Unidade de faturamento e controle de acesso aos serviços da Azure.
+- **Função**: 
+  - Agrupar recursos com base em limites de cobrança.
+  - Atribuir permissões específicas com base em funções (RBAC).
+- **Vinculada a um Diretório Azure AD**.
+
+## 🗂️ Grupo de Gerenciamento (Management Group)
+- **Definição**: Contêiner hierárquico acima das assinaturas, usado para aplicar políticas, governança e controle de acesso em escala.
+- **Função**:
+  - Organizar múltiplas assinaturas.
+  - Aplicar políticas do Azure Policy ou RBAC de forma centralizada.
+
+---

@@ -99,3 +99,70 @@ Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
 7. Aguarde a implantação e acesse a VM através do IP público fornecido.
 
 ---
+
+# 🌩️ Tipos de Serviço em Nuvem
+
+![image-hierarquia-iaas-paas-saas](https://github.com/user-attachments/assets/f169258a-bc96-45c0-a6f0-40a1968b1318)
+
+
+
+
+## ☁️ IaaS (Infrastructure as a Service)
+- **O que é:** Fornece infraestrutura de TI básica sob demanda (servidores, redes, armazenamento).
+- **Responsabilidade do usuário:** Sistema operacional, aplicativos, dados.
+- **Exemplo:** Microsoft Azure VMs, Amazon EC2.
+
+## ☁️ PaaS (Platform as a Service)
+- **O que é:** Oferece uma plataforma completa para desenvolvimento, execução e gerenciamento de aplicações sem se preocupar com infraestrutura.
+- **Responsabilidade do usuário:** Aplicações e dados.
+- **Exemplo:** Azure App Service, Google App Engine.
+
+## ☁️ SaaS (Software as a Service)
+- **O que é:** Software pronto para uso, acessado via internet, sem necessidade de instalação ou manutenção.
+- **Responsabilidade do usuário:** Uso do software.
+- **Exemplo:** Microsoft 365, Google Workspace.
+
+
+---
+
+# 🛠️ Como Criar uma Instância Gerenciada de SQL no Azure
+
+## 📌 Passos
+
+1. **Acesse o Portal Azure**
+   - [https://portal.azure.com](https://portal.azure.com)
+
+2. **Crie um novo recurso**
+   - Vá em **"Criar um recurso"** > **"Banco de dados"** > **"Instância Gerenciada de SQL"**
+
+3. **Configuração básica**
+   - Nome da instância
+   - Região (localização do datacenter)
+   - Resource Group
+   - Nome DNS personalizado
+
+4. **Configuração de computação e armazenamento**
+   - Escolha a camada de serviço (por exemplo: General Purpose ou Business Critical)
+   - Selecione número de vCores e tamanho do armazenamento
+
+5. **Segurança e rede**
+   - Configure a rede virtual (VNet)
+   - Configure regras de firewall e autenticação
+
+6. **Configurações adicionais (opcional)**
+   - Backup automático
+   - Alta disponibilidade
+   - Tags de recurso
+
+7. **Revisar e criar**
+   - Verifique todas as configurações
+   - Clique em **"Criar"**
+
+8. **Aguardar a implantação**
+   - O Azure provisionará a instância (isso pode levar alguns minutos)
+
+## 🔗 Conectando-se à Instância
+- Use ferramentas como **Azure Data Studio** ou **SQL Server Management Studio (SSMS)**
+- Forneça o **endpoint DNS**, usuário e senha definidos na criação
+
+---

@@ -201,7 +201,7 @@ Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
 
 ---
 
-## Máquinas Virtuais (VMs)
+## 💻 Máquinas Virtuais (VMs)
 Máquinas Virtuais são emulações de computadores físicos que rodam sistemas operacionais e aplicativos como se fossem máquinas físicas. No Azure, elas permitem a execução de cargas de trabalho personalizadas com controle total sobre o sistema operacional, armazenamento e redes virtuais.
 
 **Vantagens:**
@@ -211,7 +211,7 @@ Máquinas Virtuais são emulações de computadores físicos que rodam sistemas 
 
 ---
 
-## Área de Trabalho Virtual
+## 🖥️ Área de Trabalho Virtual
 Área de Trabalho Virtual é um serviço que fornece desktops e aplicativos remotos acessíveis pela internet. Ele permite que múltiplos usuários acessem um ambiente Windows centralizado de forma segura.
 
 **Vantagens:**
@@ -221,7 +221,7 @@ Máquinas Virtuais são emulações de computadores físicos que rodam sistemas 
 
 ---
 
-## Contêineres
+## 🧱 Contêineres
 Contêineres são unidades leves e portáteis que empacotam uma aplicação com todas as suas dependências, garantindo que ela funcione de forma consistente em qualquer ambiente. O Azure oferece serviços como o Azure Kubernetes Service (AKS) para orquestração de contêineres.
 
 **Vantagens:**
@@ -231,7 +231,7 @@ Contêineres são unidades leves e portáteis que empacotam uma aplicação com 
 
 ---
 
-## Serviços de Aplicativos do Azure
+## 🧩 Serviços de Aplicativos do Azure
 Azure App Services é uma plataforma de hospedagem de aplicativos web, APIs REST e backends móveis. Ele permite que os desenvolvedores implantem rapidamente aplicações sem se preocupar com a infraestrutura.
 
 **Recursos:**
@@ -241,7 +241,7 @@ Azure App Services é uma plataforma de hospedagem de aplicativos web, APIs REST
 
 ---
 
-# Serviços de Rede do Azure
+# 🌐 Serviços de Rede do Azure
 
 Os **Serviços de Rede do Azure** são componentes fundamentais para conectar, proteger e otimizar a comunicação entre recursos na nuvem e em ambientes locais. Eles fornecem infraestrutura para redes virtuais, roteamento, balanceamento de carga e conectividade híbrida.
 

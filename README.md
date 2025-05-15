@@ -200,3 +200,107 @@ Siga os passos abaixo para criar uma VM no portal da Microsoft Azure:
   - Aplicar políticas do Azure Policy ou RBAC de forma centralizada.
 
 ---
+
+## Máquinas Virtuais (VMs)
+Máquinas Virtuais são emulações de computadores físicos que rodam sistemas operacionais e aplicativos como se fossem máquinas físicas. No Azure, elas permitem a execução de cargas de trabalho personalizadas com controle total sobre o sistema operacional, armazenamento e redes virtuais.
+
+**Vantagens:**
+- Alta flexibilidade e controle
+- Suporte a diferentes sistemas operacionais
+- Escalabilidade sob demanda
+
+---
+
+## Área de Trabalho Virtual
+Área de Trabalho Virtual é um serviço que fornece desktops e aplicativos remotos acessíveis pela internet. Ele permite que múltiplos usuários acessem um ambiente Windows centralizado de forma segura.
+
+**Vantagens:**
+- Acesso remoto seguro
+- Gerenciamento centralizado
+- Redução de custos com infraestrutura física
+
+---
+
+## Contêineres
+Contêineres são unidades leves e portáteis que empacotam uma aplicação com todas as suas dependências, garantindo que ela funcione de forma consistente em qualquer ambiente. O Azure oferece serviços como o Azure Kubernetes Service (AKS) para orquestração de contêineres.
+
+**Vantagens:**
+- Inicialização rápida
+- Portabilidade entre ambientes
+- Eficiência no uso de recursos
+
+---
+
+## Serviços de Aplicativos do Azure
+Azure App Services é uma plataforma de hospedagem de aplicativos web, APIs REST e backends móveis. Ele permite que os desenvolvedores implantem rapidamente aplicações sem se preocupar com a infraestrutura.
+
+**Recursos:**
+- Suporte a várias linguagens (C#, Java, Python, Node.js, etc.)
+- Integração com CI/CD
+- Escalabilidade automática
+
+---
+
+## Serviços de Rede do Azure
+
+Os **Serviços de Rede do Azure** são componentes fundamentais para conectar, proteger e otimizar a comunicação entre recursos na nuvem e em ambientes locais. Eles fornecem infraestrutura para redes virtuais, roteamento, balanceamento de carga e conectividade híbrida.
+
+---
+
+# 1. Azure Virtual Network (VNet)
+
+É o serviço básico de rede no Azure, permitindo que você crie redes privadas isoladas dentro da nuvem.
+
+**Recursos:**
+- Segmentação de redes em sub-redes
+- Controle de tráfego com grupos de segurança de rede (NSG)
+- Integração com outros serviços (VMs, bancos de dados, gateways)
+
+---
+
+# 2. Azure VPN Gateway
+
+Permite a criação de túneis criptografados entre sua rede local e a rede virtual do Azure, usando protocolos como IPsec e IKE.
+
+**Tipos:**
+- **Site-to-Site (S2S):** Conecta redes locais inteiras ao Azure.
+- **Point-to-Site (P2S):** Conecta dispositivos individuais ao Azure.
+- **VNet-to-VNet:** Conecta diferentes VNets entre si.
+
+**Vantagens:**
+- Comunicação segura
+- Custo mais acessível que conexões físicas
+- Flexível para empresas com redes distribuídas
+
+---
+
+# 3. Azure ExpressRoute
+
+Permite criar conexões privadas e de alta performance entre o Azure e data centers locais, sem passar pela internet pública.
+
+**Características:**
+- Alta largura de banda (até 100 Gbps)
+- Baixa latência e maior confiabilidade
+- Mais seguro que conexões baseadas em internet
+
+**Casos de uso:**
+- Aplicações críticas que exigem desempenho elevado
+- Conformidade com requisitos regulatórios de dados
+- Backup e replicação de grandes volumes
+
+---
+
+# 4. Azure DNS
+
+Serviço de hospedagem de DNS que permite gerenciar nomes de domínio usando a infraestrutura do Azure.
+
+**Benefícios:**
+- Alta disponibilidade e desempenho global
+- Integração com outros serviços do Azure
+- Suporte a registros DNS padrão (A, AAAA, CNAME, MX, etc.)
+
+**Usos comuns:**
+- Resolver nomes de domínio para aplicativos hospedados no Azure
+- Gerenciar zonas DNS públicas e privadas
+
+---

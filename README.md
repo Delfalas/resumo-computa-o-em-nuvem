@@ -241,13 +241,13 @@ Azure App Services é uma plataforma de hospedagem de aplicativos web, APIs REST
 
 ---
 
-## Serviços de Rede do Azure
+# Serviços de Rede do Azure
 
 Os **Serviços de Rede do Azure** são componentes fundamentais para conectar, proteger e otimizar a comunicação entre recursos na nuvem e em ambientes locais. Eles fornecem infraestrutura para redes virtuais, roteamento, balanceamento de carga e conectividade híbrida.
 
 ---
 
-# 1. Azure Virtual Network (VNet)
+## 1. Azure Virtual Network (VNet)
 
 É o serviço básico de rede no Azure, permitindo que você crie redes privadas isoladas dentro da nuvem.
 
@@ -258,7 +258,7 @@ Os **Serviços de Rede do Azure** são componentes fundamentais para conectar, p
 
 ---
 
-# 2. Azure VPN Gateway
+## 2. Azure VPN Gateway
 
 Permite a criação de túneis criptografados entre sua rede local e a rede virtual do Azure, usando protocolos como IPsec e IKE.
 
@@ -274,7 +274,7 @@ Permite a criação de túneis criptografados entre sua rede local e a rede virt
 
 ---
 
-# 3. Azure ExpressRoute
+## 3. Azure ExpressRoute
 
 Permite criar conexões privadas e de alta performance entre o Azure e data centers locais, sem passar pela internet pública.
 
@@ -290,7 +290,7 @@ Permite criar conexões privadas e de alta performance entre o Azure e data cent
 
 ---
 
-# 4. Azure DNS
+## 4. Azure DNS
 
 Serviço de hospedagem de DNS que permite gerenciar nomes de domínio usando a infraestrutura do Azure.
 
